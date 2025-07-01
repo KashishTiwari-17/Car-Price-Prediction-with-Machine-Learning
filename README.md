@@ -6,24 +6,24 @@ The aim of this project is to develop a machine learning model that accurately p
 1. Data Exploration and Visualization
 Loaded the dataset from a CSV file.
 Inspected data structure, checked for missing values, and reviewed basic statistics.
- Visualized:
+2.Visualized:
  Selling Price distribution
  Year-wise car distribution
  Fuel type and transmission distribution
  Correlation matrix of numerical features
-2. Data Preprocessing and Feature Engineering
+3. Data Preprocessing and Feature Engineering
 Removed irrelevant features (Car_Name) and transformed Year to Car_Age.
 Applied StandardScaler to numerical features.
 Applied OneHotEncoder to categorical features (Fuel_Type, Selling_type, Transmission) using ColumnTransformer.
-3. Model Training and Evaluation
+4. Model Training and Evaluation
 Trained and evaluated multiple regression models:
 Random Forest Regressor
 Gradient Boosting Regressor
 Linear Regression
-4. Evaluation Metrics:
+5. Evaluation Metrics:
 Root Mean Squared Error (RMSE)
 R² Score
-5. Hyperparameter Tuning
+6. Hyperparameter Tuning
 Applied GridSearchCV to find the best hyperparameters for the Random Forest model.
 The best model was saved using joblib as car_price_predictor.pkl.
 6. Interactive User Prediction Tool
