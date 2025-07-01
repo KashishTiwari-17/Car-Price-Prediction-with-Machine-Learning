@@ -6,11 +6,11 @@ The aim of this project is to develop a machine learning model that accurately p
 1. Data Exploration and Visualization
 Loaded the dataset from a CSV file.
 Inspected data structure, checked for missing values, and reviewed basic statistics.
-# Visualized:
-Selling Price distribution
-Year-wise car distribution
-Fuel type and transmission distribution
-Correlation matrix of numerical features
+ Visualized:
+ Selling Price distribution
+ Year-wise car distribution
+ Fuel type and transmission distribution
+ Correlation matrix of numerical features
 2. Data Preprocessing and Feature Engineering
 Removed irrelevant features (Car_Name) and transformed Year to Car_Age.
 Applied StandardScaler to numerical features.
