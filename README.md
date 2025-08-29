@@ -1,4 +1,4 @@
-# OIBSIP_Data-science_task3
+# Car Price Prediction with Machine Learning
 # Objective of the Task
 The aim of this project is to develop a machine learning model that accurately predicts the selling price of a used car based on various input features such as present price, kilometers driven, fuel type, transmission, number of owners, and the car's age. The model uses a combination of data preprocessing, feature engineering, and regression algorithms, with a focus on performance optimization and user interaction.
 
